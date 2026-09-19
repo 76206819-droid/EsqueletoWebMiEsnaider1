@@ -3,13 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mi Primera Página</title>
+  <title>Mi Proyecto Web v2.0</title>
   <link rel="stylesheet" href="./estilos.css" />
 </head>
 <body>
-  <h1>Mi primera página</h1>
-  <p>Hola cómo estás, esta es mi primera página</p>
-  <button onclick="mostrarMensaje('¡Hola desde mi Tab S9 Ultra!')">Dime algo</button>
+  <div class="card">
+    <div class="badge">ONLINE</div>
+    <h1>🚀 Mi Proyecto Web v2.0</h1>
+    <p>¡Hola! Esta es la versión mejorada de mi primera página web. Ahora incluye diseño moderno, tarjetas elegantes y botones interactivos.</p>
+    
+    <div class="button-group">
+      <button class="btn primary" onclick="mostrarMensaje('¡Hola desde mi Tab S9 Ultra!')">Dime algo especial</button>
+      <button class="btn secondary" onclick="cambiarFondo()">Cambiar Color</button>
+    </div>
+  </div>
+
   <script src="./codigo.js"></script>
 </body>
 </html> 
